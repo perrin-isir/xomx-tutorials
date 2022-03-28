@@ -17,3 +17,4 @@ biomarkers for the differential diagnosis of three types of kidney cancer
 *Goal of the tutorial:* follow the single cell RNA-seq [Scanpy tutorial on 3k PBMCs](
 https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html), except
 for the computation of biomarkers for which recursive feature elimination is used.
+
