@@ -14,7 +14,7 @@ repos:
 -   repo: local
     hooks:
     - id: jupyter-nb-clear-output
-      exclude: ^(tutorials/xomx_kidney_classif_2.ipynb)
+      exclude: ^(tutorials/xomx_kidney_classif_2.ipynb|tutorials/xomx_pbmc.ipynb)
       name: jupyter-nb-clear-output
       files: \.ipynb$
       stages: [commit]
