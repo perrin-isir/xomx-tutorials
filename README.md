@@ -13,7 +13,7 @@ recursive feature elimination method on RNA-seq data to identify gene
 biomarkers for the differential diagnosis of three types of kidney cancer
 
 
-- [xomx_pbmc.md](https://colab.research.google.com/github/perrin-isir/xomx-tutorials/blob/main/tutorials/xomx_pbmc.ipynb)  
+- [xomx_pbmc.ipynb](https://colab.research.google.com/github/perrin-isir/xomx-tutorials/blob/main/tutorials/xomx_pbmc.ipynb)  
 *Goal of the tutorial:* follow the single cell RNA-seq [Scanpy tutorial on 3k PBMCs](
 https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html), except
 for the computation of biomarkers for which recursive feature elimination is used.
