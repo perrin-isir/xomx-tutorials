@@ -18,3 +18,5 @@ biomarkers for the differential diagnosis of three types of kidney cancer
 https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html), except
 for the computation of biomarkers for which recursive feature elimination is used.
 
+- [xomx_tcr.ipynb](https://colab.research.google.com/github/perrin-isir/xomx-tutorials/blob/main/tutorials/xomx_tcr.ipynb)  
+*Goal of the tutorial:* train an extra-trees classifier to predict whether a TCR beta-chain CDR3 sequence is associated with a given epitope.
