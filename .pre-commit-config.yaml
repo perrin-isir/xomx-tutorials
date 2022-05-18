@@ -19,4 +19,4 @@ repos:
       files: \.ipynb$
       stages: [commit]
       language: system
-      entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
+      entry: jupyter nbconvert --Exporter.preprocessors "preprocess.CustomClearOutputPreprocessor" --inplace
