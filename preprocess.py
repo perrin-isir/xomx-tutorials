@@ -4,7 +4,7 @@ from nbconvert.preprocessors import ClearOutputPreprocessor
 class CustomClearOutputPreprocessor(ClearOutputPreprocessor):
     """
     Removes the output from all code cells in a notebook,
-    except the first one if its source is empty.
+    except if their source is empty.
     """
 
     def __init__(self, *args, **kw):
@@ -15,7 +15,7 @@ class CustomClearOutputPreprocessor(ClearOutputPreprocessor):
         Apply a transformation on each cell. See base.py for details.
         """
         if cell.cell_type == "code":
-            if cell.source[:6] == "%%html":
+            if cell.source == "":
                 print("Code cell skipped")
             else:
                 cell.outputs = []
