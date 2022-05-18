@@ -15,8 +15,8 @@ class CustomClearOutputPreprocessor(ClearOutputPreprocessor):
         Apply a transformation on each cell. See base.py for details.
         """
         if cell.cell_type == "code":
-            if cell.source is None or cell.source == [] or cell.source == "":
-                print("ok")
+            if cell.source[:6] == "%%html":
+                print("Code cell skipped")
             else:
                 cell.outputs = []
                 cell.execution_count = None
