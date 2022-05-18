@@ -15,7 +15,7 @@ class CustomClearOutputPreprocessor(ClearOutputPreprocessor):
         Apply a transformation on each cell. See base.py for details.
         """
         if cell.cell_type == "code":
-            if cell.source is None or cell.source == "":
+            if cell.source is None or cell.source == [] or cell.source == "":
                 print("ok")
             else:
                 cell.outputs = []
