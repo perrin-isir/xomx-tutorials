@@ -10,7 +10,7 @@ Tutorials for xomx ([https://github.com/perrin-isir/xomx](https://github.com/per
 Remark: the phase 1, about importation and basic preprocessing of the data, can be skipped.  
 *Goal of the tutorial:*  use a 
 recursive feature elimination method on RNA-seq data to identify gene 
-biomarkers for the differential diagnosis of three types of kidney cancer
+biomarkers for the differential diagnosis of three types of kidney cancer.
 
 
 - [xomx_pbmc.ipynb](https://colab.research.google.com/github/perrin-isir/xomx-tutorials/blob/main/tutorials/xomx_pbmc.ipynb)  
