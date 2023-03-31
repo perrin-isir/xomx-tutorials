@@ -22,6 +22,10 @@ for the computation of biomarkers for which recursive feature elimination is use
 - [xomx_tcr.ipynb](https://colab.research.google.com/github/perrin-isir/xomx-tutorials/blob/main/tutorials/xomx_tcr.ipynb)  
 *Goal of the tutorial:* train an extra-trees classifier to predict whether a TCR beta-chain CDR3 sequence is associated with a given epitope.
 
+
+- [xomx_hla.ipynb](https://colab.research.google.com/github/perrin-isir/xomx-tutorials/blob/main/tutorials/xomx_hla.ipynb)  
+*Goal of the tutorial:* try to predict the tissue type based on HLA-presented peptides that have been found in it.
+
 ### To run tutorials as standard python scripts instead of notebooks:
 You can run the `convert_notebooks_to_scripts.sh` shell script. It will convert the tutorials to python scripts and put them in the `tuto_scripts` folder:
 ```
