@@ -27,7 +27,7 @@ for the computation of biomarkers for which recursive feature elimination is use
 *Goal of the tutorial:* try to predict the tissue type based on HLA-presented peptides that have been found in it.
 
 ### To run tutorials as python scripts instead of notebooks:
-You can run the `convert_notebooks_to_scripts.sh` shell script. It will convert the tutorials to python scripts and put them in the `tuto_scripts` folder:
+You can run locally the `convert_notebooks_to_scripts.sh` shell script. It will convert the tutorials to python scripts and put them in the `tuto_scripts` folder:
 ```
 bash convert_notebooks_to_scripts.sh
 cd tuto_scripts
